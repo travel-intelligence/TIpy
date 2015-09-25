@@ -1,9 +1,7 @@
 from distutils.core import setup
 
 requirements = [
-    'json',
-    'urllib2',
-    'urllib'
+    'simplejson'
 ]
 
 setup(
