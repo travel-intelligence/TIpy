@@ -1,3 +1,7 @@
+import urllib2
+import urllib
+import json
+
 class TIAPICommunicator(object):
 
     # constructor:
