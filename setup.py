@@ -1,9 +1,16 @@
 from distutils.core import setup
+
+requirements = [
+    'json',
+    'urllib2',
+    'urllib'
+]
+
 setup(
   name = 'travel-intelligence',
   packages = ['travel-intelligence'], # this must be the same as the name above
   version = '0.1',
-  install_requires=['json','urllib2','urllib'],
+  install_requires=requirements,
   description = 'A wrapper around the travel-intelligence Web Service API',
   author = 'Sebastien Perez',
   author_email = 'sebastien.perez@amadeus.com',
