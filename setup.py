@@ -7,7 +7,7 @@ requirements = [
 setup(
   name = 'travel-intelligence',
   packages = ['travel-intelligence'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   install_requires=requirements,
   description = 'A wrapper around the travel-intelligence Web Service API',
   author = 'Sebastien Perez',
