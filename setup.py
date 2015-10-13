@@ -13,7 +13,7 @@ setup(
   author = 'Sebastien Perez',
   author_email = 'sebastien.perez@amadeus.com',
   url = 'https://github.com/travel-intelligence/TIpy', # use the URL to the github repo
-  download_url = 'https://github.com/travel-intelligence/TIpy/tarball/0.1', # I'll explain this in a second
+  download_url = 'https://github.com/travel-intelligence/TIpy/tarball/0.2', # I'll explain this in a second
   keywords = ['travel', 'intelligence', 'business', 'api', 'web services'], # arbitrary keywords
   classifiers = [],
 )
