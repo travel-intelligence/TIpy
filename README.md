@@ -7,6 +7,7 @@ This project contains a class to communicate with the Amadeus Travel Intelligenc
 The TIAPICommunicator needs to be initialized with a backend:
 
 ```python
+from travel_intelligence.TIAPICommunicator import TIAPICommunicator
 communicator = TIAPICommunicator("https://api.travel-intelligence.com/")
 ```
 Then we start a session with the user and password:
