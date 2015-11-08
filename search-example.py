@@ -1,8 +1,8 @@
 import TIAPICommunicator
 import time
 
-communicator = TIAPICommunicator.TIAPICommunicator("https://staging-api.travel-intelligence.com/")
-communicator.start_Session("sandro.cuzzolin@amadeus.com", "madrid2015")
+communicator = TIAPICommunicator.TIAPICommunicator("https://api.travel-intelligence.com/")
+communicator.start_Session("sandro.cuzzolin@amadeus.com", "xxx")
 
 # Markets
 markets = ["SPAIN", "FRANCE"]
